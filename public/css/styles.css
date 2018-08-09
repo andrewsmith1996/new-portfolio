@@ -348,7 +348,7 @@ header:after {
 }
 .projects-panel .project-caption {
   color: #fff;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 200;
   text-align: center;
 }
@@ -426,7 +426,7 @@ header:after {
 .skills-panel.front-end .project-caption,
 .skills-panel.back-end .project-caption {
   color: #fff;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 200;
   margin-bottom: 20px;
 }
