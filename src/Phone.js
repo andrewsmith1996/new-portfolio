@@ -21,7 +21,7 @@ export default class Phone extends React.Component{
         // Set the timer for updating the GitHub stats, every 10 seconds
         this.githubStatsUpdate = setInterval(
             () => this.updateGitHub(),
-            60000
+            300000
         );
     }
 
