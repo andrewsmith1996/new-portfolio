@@ -2,6 +2,9 @@ body {
   font-family: 'Ubuntu', sans-serif;
   line-height: 25px;
   letter-spacing: 1px;
+  font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-webkit-font-smoothing: antialiased;
 }
 @keyframes wave {
   0% {
