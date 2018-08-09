@@ -46,7 +46,7 @@ body {
 }
 header {
   padding-top: 40px;
-  background: url('../images/backgrounds/bg.jpg') no-repeat center center;
+  background: url('../images/backgrounds/bg.png') no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
