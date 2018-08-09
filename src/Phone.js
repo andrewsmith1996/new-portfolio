@@ -42,10 +42,10 @@ export default class Phone extends React.Component{
                 githubRepos: data.public_repos
             }));
         })
-        .catch(error => console.error(error))
+        .catch(error => console.error(error));
         
         // Update the commit details
-        fetch(url + '/repos/andrewsmith1996/portfolio-site/commits')
+        fetch(url + '/repos/andrewsmith1996/new-portfolio/commits')
        
         .then(response => response.json())
         .then(data => {
@@ -82,17 +82,17 @@ export default class Phone extends React.Component{
                 lastUpdated:lastUpdatedText
             }));
 
-        }).catch(error => console.error(error))
+        }).catch(error => console.error(error));
 
            // Update the issue count
-           fetch(url + '/repos/andrewsmith1996/portfolio-site')
+           fetch(url + '/repos/andrewsmith1996/new-portfolio')
            .then(response => response.json())
            .then(data => {
                this.setState((prevState, props) => ({
                     issues:data.open_issues_count
                }));
            })
-           .catch(error => console.error(error))
+           .catch(error => console.error(error));
     }
 
     render(){
