@@ -476,7 +476,7 @@ header:after {
   margin-bottom: 30px;
 }
 .skills-panel.projects .card {
-  background: url('../images/backgrounds/bg.jpg') no-repeat center center;
+  background: url('../images/backgrounds/bg.png') no-repeat center center;
   background-attachment: fixed;
   background-size: 250%;
   transform: translateZ(0);
@@ -605,7 +605,7 @@ header:after {
 }
 .skills-panel.contact #blog-wrapper {
   background-color: #004e92;
-  background: url('../images/backgrounds/bg.jpg') no-repeat center center;
+  background: url('../images/backgrounds/bg.png') no-repeat center center;
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
   background-attachment: fixed;
