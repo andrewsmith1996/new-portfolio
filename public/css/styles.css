@@ -3,8 +3,8 @@ body {
   line-height: 25px;
   letter-spacing: 1px;
   font-smoothing: antialiased;
--moz-font-smoothing: antialiased;
--webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 @keyframes wave {
   0% {
@@ -70,6 +70,9 @@ header > div h1 {
 header > div h2 {
   font-size: 32px;
   margin: 0 0 20px 0;
+}
+header > div p {
+  font-family: 'Open Sans', sans-serif;
 }
 header > div p:last-of-type {
   padding-bottom: 20px;
@@ -280,6 +283,7 @@ header:after {
 .about-panel p {
   color: #fff;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 .about-panel img {
   height: 50px;
@@ -295,6 +299,9 @@ header:after {
   color: #fff;
   height: 60px;
   text-align: left;
+}
+.projects-panel p {
+  font-family: 'Open Sans', sans-serif;
 }
 .projects-panel p.subtitle {
   color: #dedede;
@@ -378,8 +385,15 @@ header:after {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
 }
+.skills-panel p {
+  font-family: 'Open Sans', sans-serif;
+}
 .skills-panel p.subtitle {
   color: #dedede;
+}
+.skills-panel.front-end ul li,
+.skills-panel.back-end ul li {
+  font-family: 'Open Sans', sans-serif;
 }
 .skills-panel.front-end ul li span,
 .skills-panel.back-end ul li span {
@@ -460,8 +474,9 @@ header:after {
   text-align: center;
 }
 .skills-panel.university ul li {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 .skills-panel.university ul li:hover span,
 .skills-panel.university ul li:focus span {
@@ -488,7 +503,7 @@ header:after {
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  height: 210px;
+  height: 260px;
   margin-bottom: 35px;
   position: relative;
 }
@@ -518,9 +533,6 @@ header:after {
   font-size: 18px;
   margin-top: 0;
   font-weight: bold;
-}
-.skills-panel.projects .card p {
-  line-height: 22px;
 }
 .skills-panel.projects .card p a {
   color: #cccccc;
@@ -593,6 +605,7 @@ header:after {
 .skills-panel.contact .blog-content a.blog-link {
   font-size: 12px;
   color: #dedede;
+  font-family: 'Open Sans', sans-serif;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -654,10 +667,11 @@ header:after {
 .skills-panel.contact #blog-wrapper span {
   font-size: 12px;
   display: block;
-  margin: 10px 0;
+  margin: 5px 0;
   color: #dedede;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #fff;
+  font-family: 'Open Sans', sans-serif;
 }
 .skills-panel.contact #blog-wrapper a {
   -webkit-transition: all 0.3s ease;
@@ -704,14 +718,15 @@ footer p,
 footer p a {
   color: #fff;
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   display: block;
+  font-family: 'Open Sans', sans-serif;
 }
 footer span {
-  font-size: 10px;
+  font-size: 12px;
 }
 footer p a {
-  margin-top: -5px;
+  margin-top: 0;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
