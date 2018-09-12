@@ -362,6 +362,11 @@ header:after {
 .projects-panel .project-caption a {
   color: #cccccc;
 }
+.projects-panel .project-caption span {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+}
 .skills-panel {
   padding-bottom: 20px;
 }
@@ -447,6 +452,12 @@ header:after {
 .skills-panel.front-end .project-caption a,
 .skills-panel.back-end .project-caption a {
   color: #cccccc;
+}
+.skills-panel.front-end .project-caption span,
+.skills-panel.back-end .project-caption span {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 19px;
+  font-weight: 500;
 }
 .skills-panel.front-end {
   position: relative;
