@@ -42,6 +42,8 @@
     <!-- External CSS file -->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
+    <script src="https://browser.sentry-cdn.com/4.2.3/bundle.min.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -522,6 +524,11 @@
     <footer>
         <p class="text-center"><span>Copyright &copy; 2018</span><a href="https://andrewsmithdeveloper.com"> Andrew Smith - Developer</a></p>
     </footer>
+
+    <!-- Initialise Sentry SDK -->
+    <script>
+        Sentry.init({ dsn: 'https://6f5e561714774418b9cba0f702dfed14@sentry.io/1312830' });
+    </script>
     
 </body>
 
