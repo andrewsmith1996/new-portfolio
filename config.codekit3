@@ -1167,6 +1167,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/public\/images\/social\/github-white.png": {
+		"ft": 32768,
+		"iS": 2411,
+		"oA": 0,
+		"oAP": "\/public\/images\/social\/github-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/public\/images\/social\/github.png": {
 		"ft": 32768,
 		"iS": 2330,
@@ -1189,11 +1200,44 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/public\/images\/social\/linkedin.png": {
+		"ft": 32768,
+		"iS": 2838,
+		"oA": 0,
+		"oAP": "\/public\/images\/social\/linkedin.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/public\/images\/social\/slack-icon-white.png": {
 		"ft": 32768,
 		"iS": 2664,
 		"oA": 0,
 		"oAP": "\/public\/images\/social\/slack-icon-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/images\/social\/slack-icon.png": {
+		"ft": 32768,
+		"iS": 13348,
+		"oA": 0,
+		"oAP": "\/public\/images\/social\/slack-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/images\/social\/stack-overflow-icon.png": {
+		"ft": 32768,
+		"iS": 5358,
+		"oA": 0,
+		"oAP": "\/public\/images\/social\/stack-overflow-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
