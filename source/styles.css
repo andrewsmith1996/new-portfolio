@@ -345,6 +345,9 @@ header:after {
 .projects-panel .app-description p {
   color: #fff;
 }
+.projects-panel .app-description p img {
+  height: 30px;
+}
 .projects-panel .app-description a {
   color: #cccccc;
 }

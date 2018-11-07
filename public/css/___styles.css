@@ -802,6 +802,9 @@ footer p a:focus {
   .projects-panel .app-description {
     margin-top: 0;
   }
+  .projects-panel .app-description img{
+    height:30px;
+  }
   .skills-panel {
     padding-top: 0;
   }

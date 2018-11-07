@@ -17,6 +17,22 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/build\/css\/styles-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/css\/styles-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/build\/css\/styles-min.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/css\/styles-min.css.map",
+		"oF": 0
+		},
 	"\/build\/css\/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -482,9 +498,20 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/build\/images\/social\/github.png": {
+	"\/build\/images\/social\/github-white.png": {
 		"ft": 32768,
 		"iS": 2411,
+		"oA": 0,
+		"oAP": "\/build\/images\/social\/github-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/social\/github.png": {
+		"ft": 32768,
+		"iS": 5503,
 		"oA": 0,
 		"oAP": "\/build\/images\/social\/github.png",
 		"oF": 0,
@@ -504,11 +531,44 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/build\/images\/social\/linkedin.png": {
+		"ft": 32768,
+		"iS": 2838,
+		"oA": 0,
+		"oAP": "\/build\/images\/social\/linkedin.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/build\/images\/social\/slack-icon-white.png": {
 		"ft": 32768,
 		"iS": 1326,
 		"oA": 0,
 		"oAP": "\/build\/images\/social\/slack-icon-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/social\/slack-icon.png": {
+		"ft": 32768,
+		"iS": 13348,
+		"oA": 0,
+		"oAP": "\/build\/images\/social\/slack-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/social\/stack-overflow-icon.png": {
+		"ft": 32768,
+		"iS": 5358,
+		"oA": 0,
+		"oAP": "\/build\/images\/social\/stack-overflow-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -840,6 +900,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/images\/assets\/Octocat.png": {
+		"ft": 32768,
+		"iS": 2131769,
+		"oA": 0,
+		"oAP": "\/public\/images\/assets\/Octocat.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
