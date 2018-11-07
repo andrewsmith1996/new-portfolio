@@ -589,21 +589,12 @@ header:after {
   display: inline-block;
 }
 .skills-panel.contact .social a img {
-  width: 65px;
+  width: 30px;
+  margin-right: 10px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-}
-.skills-panel.contact .social a img.linkedin {
-  width: 30px;
-  margin-right: 15px;
-}
-.skills-panel.contact .social a img.github {
-  width: 30px;
-}
-.skills-panel.contact .social a img.stackoverflow {
-  width: 30px;
 }
 .skills-panel.contact .social a img:hover,
 .skills-panel.contact .social a img:focus {
@@ -771,7 +762,7 @@ footer p a:focus {
     height: 200px;
   }
   .contact .social {
-    width: 183px;
+    width: 217px;
     margin: 0 auto;
   }
   .contact .social p {
