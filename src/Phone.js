@@ -8,8 +8,7 @@ export default class Phone extends React.Component{
         this.state = {
             commits:0,
             githubRepos:0,
-            lastUpdated:0,
-            issues:0
+            lastUpdated:0
         };
     }
 
@@ -83,16 +82,6 @@ export default class Phone extends React.Component{
             }));
 
         }).catch(error => console.error(error));
-
-           // Update the issue count
-           fetch(url + '/repos/andrewsmith1996/new-portfolio')
-           .then(response => response.json())
-           .then(data => {
-               this.setState((prevState, props) => ({
-                    issues:data.open_issues_count
-               }));
-           })
-           .catch(error => console.error(error));
     }
 
     render(){
@@ -114,7 +103,6 @@ export default class Phone extends React.Component{
           
                     <p className="updated">Repo last updated<span>{this.state.lastUpdated}</span></p>
                     <p className="statistic commits">Commits<span>{this.state.commits}</span></p>
-                    <p className="statistic issues">Issues<span>{this.state.issues}</span></p>
                     <p className="statistic repos">Repos<span>{this.state.githubRepos}</span></p>
                 </div>
             </div>
