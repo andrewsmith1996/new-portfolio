@@ -8,6 +8,7 @@ body {
 
 }
 
+
 @the-andrew-blue: #004e92;
 @grey-light:darken(#fff, 13%);
 
@@ -621,7 +622,16 @@ header {
 				z-index:3;
 				left:0;
 				right:0;
-			}
+            }
+            
+            &.with-img{
+                img{
+                    display:block;
+                    margin:0 auto;
+                    z-index:2;
+                    position:relative
+                }
+            }
 	
 		}
 	}
